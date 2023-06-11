@@ -12,7 +12,6 @@ function Footer() {
            <TwitterIcon /> 
            <LinkedInIcon /> 
             </div>
-          
         </footer>
     </div>
   )
