@@ -50,7 +50,7 @@ function Projects() {
         </div>
         <div className='projects'>
           {content.map((pics, index) => (
-            <Card key={index}>
+            <Card className='card' key={index}>
               <CardMedia className='projImg' component="img" src={pics.image} alt={pics.title} />
               <CardContent>
                 <Typography variant="h5" component="div">
