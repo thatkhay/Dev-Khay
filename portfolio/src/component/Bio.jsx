@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '@mui/material';
-
+import Meimg from '../Img/me.png'
 
 function Bio() {
   return (
@@ -15,6 +15,7 @@ function Bio() {
         <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='github' variant="contained" >github</Button>
         </div>
        </div>
+       <img className='nyImg' src={Meimg} alt="" />
     </div>
     </div>
   )

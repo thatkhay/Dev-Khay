@@ -42,7 +42,6 @@ li{
 
 .img{
 height: 20rem;
-
 }
 
 h5{
@@ -53,6 +52,7 @@ h5{
 
 .nameBio{
   text-align: left;
+  width: 100%;
 }
 
 .name{
@@ -63,6 +63,15 @@ h5{
 .bioDiv{
 background-color: rgb(230, 229, 229);
 padding: 4rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nyImg{
+  height: 30%;
+  width: 30%;
+  margin-left: 2rem;
 }
 
 .occupation{
@@ -145,6 +154,16 @@ padding-top: 2rem;
   transition: ease-in-out .5s;
 }
 
+
+.cardContent {
+  position: relative;
+}
+
+.buttonContainer {
+ margin-top: 2rem;
+}
+
+
 footer{
   margin-top: 1rem;
   background-color: rgb(7, 103, 247);
@@ -165,9 +184,4 @@ h6{
   font-size: 1rem;
   font-weight: 200;
   color: rgb(249, 251, 253);
-}
-.love{
-  height: 1rem;
-  width: 1rem;
-
 }

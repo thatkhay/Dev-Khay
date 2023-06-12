@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
+
 import Aibrid from '../Img/aibrid.png';
 import Githib from '../Img/githubfinder.png';
 import Calc from '../Img/calc.png';
@@ -13,32 +14,38 @@ function Projects() {
       {
         image: Aibrid,
         title: 'Airbrid.com',
-        text: 'vuvhb'
+        text: `This is a simple cover page for an A-list DJ/Sound Engineer's ad and bookings in Nigeria`,
+        link: 'https://example.com/airbrid'
       },
       {
         image: Githib,
-        title: 'github',
-        text: 'igvv'
+        title: 'GitHub Finder',
+        text: 'GitHub Finder is an app that searches and filters GitHub users and displays their Public Repos, Followings, and Followers, among other info , using the GitHub Api.',
+        link: 'https://example.com/airbrid'
       },
       {
         image: Calc,
-        title: 'loan calc',
-        text: 'hh'
+        title: 'Simple Calcuator',
+        text: 'This is a calculator that can perform basic arithmetic calculations.',
+        link: 'https://example.com/airbrid'
       },
       {
         image: Wize,
-        title: 'wize',
-        text: 'b8b'
+        title: 'Wize Wizard',
+        text: 'Wize Wizard is a program that provides random advice and inspiring phrases to help you start your day.',
+        link: 'https://example.com/airbrid'
       },
       {
         image: Mysteryno,
-        title: 'mystery',
-        text: 'uhu'
+        title: 'Mystery Number',
+        text: 'This is a fun guessing game in which a number is chosen as a mystery number and the players are given three attempts to guess the correct number',
+        link: 'https://example.com/airbrid'
       },
       {
         image: Loancalc,
-        title: 'loancalc',
-        text: 'huuu'
+        title: 'Loan Caculator',
+        text: 'This software was created to help a small loan firm compute customer loans. This returns the loan amount, length, and interest rate.',
+        link: 'https://example.com/airbrid'
       }
     ];
   
@@ -50,15 +57,20 @@ function Projects() {
         </div>
         <div className='projects'>
           {content.map((pics, index) => (
-            <Card className='card' key={index}>
+            <Card  key={index} sx={{ bgcolor: 'rgb(230, 229, 229)', marginBottom: '1rem' }} >
               <CardMedia className='projImg' component="img" src={pics.image} alt={pics.title} />
-              <CardContent>
-                <Typography variant="h5" component="div">
+              <CardContent className="cardContent">
+                <Typography variant="h4" component="div">
                   {pics.title}
                 </Typography>
                 <Typography variant="p" component="div">
                   {pics.text}
                 </Typography>
+                <div className="buttonContainer">
+      <Button variant="contained" color="primary" href={pics.link} target="_blank">
+        View Project
+      </Button>
+    </div>
               </CardContent>
             </Card>
           ))}
