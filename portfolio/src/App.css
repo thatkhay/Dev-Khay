@@ -5,11 +5,6 @@
 }
 
 
-
-
-.App {
-  text-align: center;
-}
 body{
   font-family: 'Roboto Slab', serif;
 }
@@ -23,9 +18,11 @@ body{
   padding: 2rem;
   box-shadow: 0px 4px 4px rgba(12, 0, 0, 0.7);
 }
-h3{
-  font-weight: 900;
 
+.myLogo{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
 }
 
 .nav{
@@ -68,10 +65,9 @@ align-items: center;
 justify-content: space-between;
 }
 
-.nyImg{
+.myImg{
   height: 30%;
   width: 30%;
-  margin-left: 2rem;
 }
 
 .occupation{

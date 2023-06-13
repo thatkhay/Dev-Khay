@@ -15,7 +15,7 @@ function Bio() {
         <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='github' variant="contained" >github</Button>
         </div>
        </div>
-       <img className='nyImg' src={Meimg} alt="" />
+       <img className='myImg' src={Meimg} alt="" />
     </div>
     </div>
   )
