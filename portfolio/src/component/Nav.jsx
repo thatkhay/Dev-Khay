@@ -14,7 +14,7 @@ function Nav() {
 
   return (
     <AppBar position="static">
-      <Toolbar style={{ display: 'flex', alignItems: 'center' , padding : '1rem'}}>
+      <Toolbar style={{ display: 'flex', alignItems: 'center' , padding : '1nrem'}}>
         <img src={Mylogo} alt="" className="myLogo" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}></Typography>
         {isMobile ? (
