@@ -53,7 +53,7 @@ function Projects() {
   return (
     <div>
       <div className="projectMainContainer">
-        <h3 className="projectDivHeading">My Projects</h3>
+        <h2 className="projectDivHeading" >My Projects</h2>
         <p className="projectDivP">These are some of my recent projects</p>
       </div>
       <div className={isMobile ? 'projects-mobile' : 'projects' } >
