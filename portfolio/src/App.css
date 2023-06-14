@@ -20,9 +20,10 @@ body{
 }
 
 .myLogo{
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
+ 
 }
 
 .nav{
@@ -41,6 +42,11 @@ li{
 height: 20rem;
 }
 
+.img-mobile {
+  max-width: 100%; /* Limit the image width to prevent overflowing on smaller screens */
+  height: auto; /* Allow the image height to adjust proportionally */
+}
+
 h5{
   font-weight: 700;
   font-size: 1.5rem;
@@ -55,6 +61,8 @@ h5{
 .name{
   font-weight: 900;
   font-size: 4rem;
+  flex: 1;
+  padding-right: 20px;
 }
 
 .bioDiv{
@@ -67,13 +75,30 @@ justify-content: space-between;
 
 .myImg{
   height: 30%;
-  width: 30%;
+  width: 100%;
+  max-width: 400px;
 }
 
 .occupation{
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: -1.5rem;
+}
+
+.bioDiv-mobile {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameBio-mobile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myImg-mobile {
+  width: 100%;
+  max-width: 300px;
 }
 
 .linkedin{
@@ -128,8 +153,22 @@ padding-top: 2rem;
   padding-top: 2rem;
 }
 
+@media (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .frameimg {
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+  }
+}
+
 .projectMainContainer{
   margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .projects {
@@ -181,3 +220,4 @@ h6{
   font-weight: 200;
   color: rgb(249, 251, 253);
 }
+
