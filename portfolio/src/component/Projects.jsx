@@ -56,9 +56,9 @@ function Projects() {
         <h3 className="projectDivHeading">My Projects</h3>
         <p className="projectDivP">These are some of my recent projects</p>
       </div>
-      <div className={isMobile ? 'projects-mobile' : 'projects'}>
+      <div className={isMobile ? 'projects-mobile' : 'projects' } >
         {content.map((pics, index) => (
-          <Card key={index} sx={{ bgcolor: 'rgb(230, 229, 229)', width: isMobile ? '80%' : '100%', marginBottom: '1rem' }}>
+          <Card key={index} sx={{ bgcolor: 'rgb(230, 229, 229)', width: isMobile ? '100%' : '100%', marginBottom: '1rem' }}>
             <CardMedia className={isMobile ? 'projImg-mobile' : 'projImg'} component="img" src={pics.image} alt={pics.title} />
             <CardContent className="cardContent">
               <Typography variant="h4" component="div">

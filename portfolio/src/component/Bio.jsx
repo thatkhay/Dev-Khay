@@ -10,7 +10,6 @@ function Bio() {
       <div className={isMobile ? 'bioDiv-mobile' : 'bioDiv'}>
         {isMobile && <img className="myImg-mobile" src={Meimg} alt="" />}
         <div className={isMobile ? 'nameBio-mobile' : 'nameBio'}>
-          {!isMobile && <img className="myImg" src={Meimg} alt="" />}
           <h5>Hi, I am</h5>
           <h1 className="name">John-Kingsley</h1>
           <p className="occupation">Software Developer (Front End)</p>
@@ -30,4 +29,5 @@ function Bio() {
 }
 
 export default Bio;
+
 
