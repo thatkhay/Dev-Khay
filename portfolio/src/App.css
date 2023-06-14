@@ -163,6 +163,15 @@ padding-top: 2rem;
     height: 2rem;
     margin: 5px;
   }
+
+  .projects-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 17px; 
+    padding: 1rem;
+  }
 }
 
 .projectMainContainer{
