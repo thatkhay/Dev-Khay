@@ -20,8 +20,8 @@ body{
 }
 
 .myLogo{
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
  
 }
@@ -43,8 +43,9 @@ height: 20rem;
 }
 
 .img-mobile {
-  max-width: 100%; /* Limit the image width to prevent overflowing on smaller screens */
-  height: auto; /* Allow the image height to adjust proportionally */
+  max-width: 100%; 
+  height: auto; 
+
 }
 
 h5{
@@ -139,7 +140,7 @@ justify-content: center;
 
 .container{
   height: 9rem;
-  background-color: rgb(230, 229, 229);
+  /* background-color: rgb(230, 229, 229); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -147,45 +148,12 @@ justify-content: center;
 padding-top: 2rem;
 }
 .langFrameTitle{
-  background-color: rgb(230, 229, 229);
+  /* background-color: rgb(230, 229, 229); */
   padding: 1rem;
   padding-top: 2rem;
 }
 
-@media (max-width: 800px) {
-  .container {
-    flex-wrap: wrap;
-  }
-  .bioDiv-mobile{
-    background-color: rgb(230, 229, 229);
-    padding: 2rem;
-    }
 
-  .aboutDiv-mobile{
-padding: 1rem;
-  }
-
-  .frameimg {
-    width: 2rem;
-    height: 2rem;
-    margin: 5px;
-  }
-
-  .projects-mobile{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 17px; 
-    padding: 2rem;
-  }
-
-  h5{
-    font-weight: 700;
-    font-size: 1rem;
-    
-  }
-}
 
 .projectMainContainer{
   margin-top: 4rem;
@@ -243,3 +211,48 @@ h6{
   color: rgb(249, 251, 253);
 }
 
+@media (max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .bioDiv-mobile{
+    background-color: rgb(230, 229, 229);
+    padding: 2rem;
+    }
+
+  .aboutDiv-mobile{
+padding: 1rem;
+margin-top: 3rem;
+  }
+
+
+  .frameimg {
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+  }
+
+  .projects-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 17px; 
+    padding: 2rem;
+  }
+
+  h5{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .myImg-mobile{
+    height: 13rem;
+    width: 13rem;
+    margin-left: 5rem;
+  }
+
+  .name-mobile{
+    font-size: 2rem;
+  }
+}

@@ -10,8 +10,8 @@ function Bio() {
       <div className={isMobile ? 'bioDiv-mobile' : 'bioDiv'}>
         {isMobile && <img className="myImg-mobile" src={Meimg} alt="" />}
         <div className={isMobile ? 'nameBio-mobile' : 'nameBio'}>
-          <h5>Hi, I am</h5>
-          <h1 className="name">John-Kingsley</h1>
+          <h5 className={isMobile ? 'h5-mobile' : 'h5'}>Hi, I am</h5>
+          <h1 className={isMobile ? 'name-mobile' : 'name'}>John-Kingsley</h1>
           <p className="occupation">Software Developer (Front End)</p>
           <div className="buttonDiv">
             <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className="linkedin" variant="contained">
