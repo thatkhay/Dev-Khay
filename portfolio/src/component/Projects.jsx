@@ -15,13 +15,13 @@ function Projects() {
     {
       image: Aibrid,
       title: 'Airbrid.com',
-      text: `This is a simple cover page for an A-list DJ/Sound Engineer's ad and bookings in Nigeria`,
-      link: 'https://example.com/airbrid'
+      text: `This is a simple cover page for an A-list DJ/Sound Engineer's ADs and Bookings in Nigeria`,
+      link: 'https://aibridmusic.com/'
     },
     {
       image: Githib,
       title: 'GitHub Finder',
-      text: 'GitHub Finder is an app that searches and filters GitHub users and displays their Public Repos, Followings, and Followers, among other info, using the GitHub API.',
+      text: 'GitHub Finder is an app that searches, filters GitHub users and displays their Public Repos, Followings, and Followers, among other info, using the GitHub API.',
       link: 'https://example.com/airbrid'
     },
     {
@@ -45,7 +45,7 @@ function Projects() {
     {
       image: Loancalc,
       title: 'Loan Calculator',
-      text: 'This software was created to help a small loan firm compute customer loans. This returns the loan amount, length, and interest rate.',
+      text: 'This software was created to help a small loan firm compute customer loans. This returns the loan amount, total payment, and interest rate.',
       link: 'https://example.com/airbrid'
     }
   ];
