@@ -14,11 +14,23 @@ function Bio() {
           <h1 className={isMobile ? 'name-mobile' : 'name'}>John-Kingsley</h1>
           <p className="occupation">Software Developer (Front End)</p>
           <div className="buttonDiv">
-            <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className="linkedin" variant="contained">
-              linkedin
+            <Button
+              target="_blank"
+              href="https://www.linkedin.com/in/john-kingsley-egeonu-a6225b255/"
+              style={{ margin: '10px', height: '3rem', width: '7rem' }}
+              className="linkedin"
+              variant="contained"
+            >
+              LinkedIn
             </Button>
-            <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className="github" variant="contained">
-              github
+            <Button
+              target="_blank"
+              href="https://github.com/thatkhay"
+              style={{ margin: '10px', height: '3rem', width: '7rem' }}
+              className="github"
+              variant="contained"
+            >
+              GitHub
             </Button>
           </div>
         </div>

@@ -20,10 +20,10 @@ function About() {
             successful projects. I am always keeping up with the latest industry trends and technologies to continuously
             improve my skills and deliver cutting-edge solutions to my clients/employers.
           </p>
-          <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='linkedin' variant="contained">
+          <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='linkedin' variant="contained" href='https://docs.google.com/document/d/e/2PACX-1vT99JmLgXzOHZEIH9Jc86TxL5Hdlq8rQY0Ffxclcld0vBQNuzXRuphGTx7SWEKydUHrkLC2kz3AF3zx/pub' target='_blank' rel='noopener noreferrer'>
             CV
           </Button>
-          <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='github' variant="contained">
+          <Button style={{ margin: '10px', height: '3rem', width: '7rem' }} className='github' variant="contained" href='mailto:johnkingsleyegeonu@gmail.com' target='_blank' rel='noopener noreferrer'>
             E-mail
           </Button>
         </div>

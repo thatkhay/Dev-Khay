@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -7,16 +7,25 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 function Footer() {
   return (
     <div>
-        <footer>
-            <h6>Developed and designed with<FavoriteIcon fontSize="small"/>by Dev-Khay</h6>
-            <div className='footerIconDiv'>
-            <GitHubIcon /> 
-            <TwitterIcon /> 
-            <LinkedInIcon /> 
-            </div>
-        </footer>
+      <footer>
+        <h6>
+          Developed and designed with <FavoriteIcon fontSize="small" /> by Dev-Khay
+        </h6>
+        <div className='footerIconDiv'>
+          <a href='https://github.com/thatkhay' target='_blank' rel='noopener noreferrer'>
+            <GitHubIcon style={{color:'black'}}/>
+          </a>
+          <a href='https://www.linkedin.com/in/john-kingsley-egeonu-a6225b255/' target='_blank' rel='noopener noreferrer'>
+            <LinkedInIcon style={{color:'black'}}/>
+          </a>
+          <a href='https://www.twitter.com/that_khayy' target='_blank' rel='noopener noreferrer'>
+            <TwitterIcon style={{color:'black'}}/>
+          </a>
+         
+        </div>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
