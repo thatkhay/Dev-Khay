@@ -22,31 +22,31 @@ function Projects() {
       image: Githib,
       title: 'GitHub Finder',
       text: 'GitHub Finder is an app that searches, filters GitHub users and displays their Public Repos, Followings, and Followers, among other info, using the GitHub API.',
-      link: 'https://example.com/airbrid'
+      link: 'https://scout-github.netlify.app'
     },
     {
       image: Calc,
       title: 'Simple Calculator',
       text: 'This is a calculator that can perform basic arithmetic calculations.',
-      link: 'https://example.com/airbrid'
+      link: 'https://smatcalculator.netlify.app'
     },
     {
       image: Wize,
       title: 'Wize Wizard',
       text: 'Wize Wizard is a program that provides random advice and inspiring phrases to help you start your day.',
-      link: 'https://example.com/airbrid'
+      link: 'https://wize-wizard.netlify.app'
     },
     {
       image: Mysteryno,
       title: 'Mystery Number',
       text: 'This is a fun guessing game in which a number is chosen as a mystery number and the players are given three attempts to guess the correct number',
-      link: 'https://example.com/airbrid'
+      link: 'https://mysteryno.netlify.app'
     },
     {
       image: Loancalc,
       title: 'Loan Calculator',
       text: 'This software was created to help a small loan firm compute customer loans. This returns the loan amount, total payment, and interest rate.',
-      link: 'https://example.com/airbrid'
+      link: 'https://calculate-your-loans.netlify.app'
     }
   ];
 
