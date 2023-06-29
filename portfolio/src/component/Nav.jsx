@@ -3,6 +3,7 @@ import { AppBar, Typography, Toolbar, IconButton, useMediaQuery, Drawer, List, L
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import Mylogo from '../Img/mylogo.png';
+import { Link } from "react-router-dom";
 
 function Nav() {
   const isMobile = useMediaQuery('(max-width: 850px)');
@@ -25,26 +26,30 @@ function Nav() {
             <Drawer anchor="right" open={open} onClose={toggleDrawer}>
               <List>
                 <ListItem button>
+                <Link style={{textDecoration: 'none', color: 'black'}}  to='/'>
                   <ListItemText primary="Home" />
+                  </Link>
                 </ListItem>
+
                 <ListItem button>
+                <Link style={{textDecoration: 'none', color: 'black'}}  to='/aboutme'>
                   <ListItemText primary="About" />
+                  </Link>
                 </ListItem>
+
                 <ListItem button>
-                  <ListItemText primary="Experience" />
-                </ListItem>
-                <ListItem button>
+                <Link style={{textDecoration: 'none', color: 'black'}}  to='/project'>
                   <ListItemText primary="Projects" />
+                  </Link>
                 </ListItem>
               </List>
             </Drawer>
           </>
         ) : (
-          <ul className="nav">
-            <li className="nav-item">Home</li>
-            <li className="nav-item">About</li>
-            <li className="nav-item">Experience</li>
-            <li className="nav-item">Projects</li>
+          <ul className="nav"style={{width: '50%'}}>
+            <Link style={{textDecoration: 'none', color: 'white'}} to='/' className="nav-item">Home</Link >
+            <Link style={{textDecoration: 'none', color: 'white'}} to='/aboutme' className="nav-item">About</Link >
+            <Link style={{textDecoration: 'none', color: 'white'}} to='/project' className="nav-item">Projects</Link >
           </ul>
         )}
       </Toolbar>

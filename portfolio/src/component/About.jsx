@@ -11,7 +11,7 @@ function About() {
         <img className={isMobile ? 'img-mobile' : 'img'} alt='' src={Myimg} />
         <div className={isMobile ? 'aboutText-mobile' : 'aboutText'}>
           <h2>About Me</h2>
-          <p className={isMobile ? 'aboutMeP-mobile' : 'aboutMeP' } style={{letterSpacing: '0.1rem'}}>
+          <p className={isMobile ? 'aboutMeP-mobile' : 'aboutMeP' } style={{letterSpacing: '0.08rem'}}>
             I am a highly skilled and experienced frontend engineer with a passion for building intuitive, user-friendly
             websites and applications. With a strong background in HTML, CSS, JavaScript, TypeScript, and various
             front-end frameworks (Tailwind, Next.js, React.js, Angular, MUI, Bootstrap, etc.), I have a proven track
