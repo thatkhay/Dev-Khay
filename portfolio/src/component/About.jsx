@@ -1,15 +1,16 @@
 import React from 'react';
 import { Button, useMediaQuery } from '@mui/material';
 import Myimg from '../Img/bioimg.png';
+import '../App.css'
 
 function About() {
   const isMobile = useMediaQuery('(max-width: 850px)');
 
   return (
-    <div>
+    <div className='text'>
       <div className={isMobile ? 'aboutDiv-mobile' : 'aboutDiv'}>
         <img className={isMobile ? 'img-mobile' : 'img'} alt='' src={Myimg} />
-        <div className={isMobile ? 'aboutText-mobile' : 'aboutText'}>
+        <div className={isMobile ? 'aboutText-mobile' : 'aboutText'} style={{marginLeft: '1rem'}}>
           <h2>About Me</h2>
           <p className={isMobile ? 'aboutMeP-mobile' : 'aboutMeP' } style={{letterSpacing: '0.08rem'}}>
             I am a highly skilled and experienced frontend engineer with a passion for building intuitive, user-friendly

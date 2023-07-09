@@ -7,6 +7,7 @@ import Calc from '../Img/calc.png';
 import Wize from '../Img/wize.png';
 import Mysteryno from '../Img/mysterynumber.png';
 import Loancalc from '../Img/loancalc.png';
+import '../App.css'
 
 function Projects() {
   const isMobile = useMediaQuery('(max-width: 850px)');
@@ -51,7 +52,7 @@ function Projects() {
   ];
 
   return (
-    <div>
+    <div className='text'>
       <div className="projectMainContainer">
         <h2 className="projectDivHeading" >My Projects</h2>
         <p className="projectDivP">These are some of my recent projects</p>

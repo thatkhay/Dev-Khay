@@ -5,7 +5,7 @@ import Footer from '../component/Footer'
 
 function MyProjects() {
   return (
-    <div>
+    <div >
         <Nav />
         <Projects />
         <Footer />

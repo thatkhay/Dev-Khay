@@ -256,3 +256,28 @@ margin-top: 3rem;
     font-size: 2rem;
   }
 }
+
+#light {
+  background-color:  hsl(0, 0%, 100%);
+}
+#dark {
+background-color: hsl(230, 17%, 14%);
+}
+#light .text{
+  color:  hsl(0, 0%, 4%);
+}
+#dark .text{
+color: hsl(0, 0%, 100%);
+}
+#light .bioDiv{
+  background-color: rgb(230, 229, 229);
+}
+#dark .bioDiv{
+  background-color: rgb(112, 112, 112);
+}
+#light .bioDiv-mobile{
+  background-color: rgb(230, 229, 229);
+}
+#dark .bioDiv-mobile{
+  background-color: rgb(112, 112, 112);
+}

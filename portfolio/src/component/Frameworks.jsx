@@ -8,10 +8,11 @@ import Typscriptimg from '../Img/typescript.png';
 import Tailwindimg from '../Img/Tailwind.png';
 import Angularimg from '../Img/angular.png';
 import Muiimg from '../Img/MUIpng.png';
+import '../App.css'
 
 function Frameworks() {
   return (
-    <div>
+    <div className='text'>
       <h2 className="langFrameTitle">Languages / Frameworks</h2>
       <div className="container">
         <img className="frameimg html" alt="" src={Htmlimg} />

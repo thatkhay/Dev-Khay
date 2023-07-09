@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button, useMediaQuery } from '@mui/material';
 import Meimg from '../Img/me.png';
-
+import '../App.css'
 function Bio() {
   const isMobile = useMediaQuery('(max-width: 850px)');
 
   return (
-    <div>
+    <div className='text'>
       <div className={isMobile ? 'bioDiv-mobile' : 'bioDiv'}>
         {isMobile && <img className="myImg-mobile" src={Meimg} alt="" />}
         <div className={isMobile ? 'nameBio-mobile' : 'nameBio'}>
