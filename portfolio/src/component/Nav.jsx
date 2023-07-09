@@ -56,7 +56,7 @@ function Nav() {
                 </ListItem>
 
                 <ListItem button>
-                  <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: '28rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: '25rem' }}>
             <label className='text' htmlFor="switch" style={{ textTransform: 'capitalize', fontSize: '.7rem', fontWeight: '400'}}>{theme === 'light' ? 'light mode' : 'dark mode'}</label>
             <Switch  onChange={handleToggle} checked={checked} />
             </div>

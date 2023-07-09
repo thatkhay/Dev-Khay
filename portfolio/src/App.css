@@ -281,3 +281,9 @@ color: hsl(0, 0%, 100%);
 #dark .bioDiv-mobile{
   background-color: rgb(112, 112, 112);
 }
+#light .card{
+  background-color: rgb(230, 229, 229);
+}
+#dark .card{
+  background-color: rgb(112, 112, 112);
+}

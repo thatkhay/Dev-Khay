@@ -59,13 +59,13 @@ function Projects() {
       </div>
       <div className={isMobile ? 'projects-mobile' : 'projects' } >
         {content.map((pics, index) => (
-          <Card key={index} sx={{ bgcolor: 'rgb(230, 229, 229)', width: isMobile ? '100%' : '100%', marginBottom: '1rem' }}>
-            <CardMedia className={isMobile ? 'projImg-mobile' : 'projImg'} component="img" src={pics.image} alt={pics.title} />
-            <CardContent className="cardContent">
+          <Card className='card' key={index} sx={{ width: isMobile ? '100%' : '100%', marginBottom: '1rem' }}>
+            <CardMedia className={isMobile ? 'projImg-mobile text' : 'projImg text'} component="img" src={pics.image} alt={pics.title} />
+            <CardContent className="cardContent text">
               <Typography variant="h4" component="div">
                 {pics.title}
               </Typography>
-              <Typography variant="p" component="div">
+              <Typography variant="p" component="div" className='text'>
                 {pics.text}
               </Typography>
               <div className="buttonContainer">
