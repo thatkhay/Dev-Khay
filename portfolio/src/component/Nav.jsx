@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
-import { AppBar, Typography, Toolbar, IconButton, useMediaQuery, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { AppBar, Typography, Toolbar, IconButton, useMediaQuery, Drawer, List, ListItem, ListItemText, Button } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import Mylogo from '../Img/mylogo.png';
+import Mylogo from '../Img/mylogo.svg';
 import { Link } from "react-router-dom";
 import '../App.css'
 import Switch from 'react-switch'
@@ -26,9 +26,9 @@ function Nav() {
   };
 
   return (
-    <AppBar position="static" className='text'>
+    <AppBar position="static" style={{backgroundColor: 'white', color: 'black', padding: '0 2rem'}}>
       <Toolbar style={{ display: 'flex', alignItems: 'center' , padding : '1nrem'}}>
-        <img src={Mylogo} alt="" className="myLogo" />
+        <img src={Mylogo} alt="" className="myLogo" style={{ height: '6rem', width: '8rem' }}/>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}></Typography>
         {isMobile ? (
           <>
@@ -57,7 +57,7 @@ function Nav() {
 
                 <ListItem button>
                   <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: '25rem' }}>
-            <label className='text' htmlFor="switch" style={{ textTransform: 'capitalize', fontSize: '.7rem', fontWeight: '400'}}>{theme === 'light' ? 'light mode' : 'dark mode'}</label>
+
             <Switch  onChange={handleToggle} checked={checked} />
             </div>
                 </ListItem>
@@ -69,11 +69,22 @@ function Nav() {
           </>
         ) : (
           <ul className="nav text"style={{width: '50%'}} >
-            <Link style={{textDecoration: 'none', color: 'white'}} to='/' className="nav-item">Home</Link >
-            <Link style={{textDecoration: 'none', color: 'white'}} to='/aboutme' className="nav-item">About</Link >
-            <Link style={{textDecoration: 'none', color: 'white'}} to='/project' className="nav-item">Projects</Link >
+             <Button variant="text" style={{color: 'black'}}>
+              <Link style={{textDecoration: 'none', color: 'black'}} to='/'>Home</Link>
+             </Button>
+              <Button variant="text" style={{color: 'black'}}>
+                <Link style={{textDecoration: 'none', color: 'black'}} to='/aboutme' className="nav-item">About</Link>
+              </Button>
+              <Button variant="text" style={{color: 'black'}}>
+                <Link style={{textDecoration: 'none', color: 'black'}} to='/project' className="nav-item">Projects</Link >
+              </Button>
+              
+            
+            
+            
+            <Button variant="text" style={{color: 'black', height: '3rem', border: '.4px solid gray'}}>contact me</Button>
             <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginRight: '-4rem' }}>
-            <label className='text' htmlFor="switch" style={{ textTransform: 'capitalize', fontSize: '.7rem', fontWeight: '400'}}>{theme === 'light' ? 'light mode' : 'dark mode'}</label>
+
             <Switch  onChange={handleToggle} checked={checked} />
             </div>
           </ul>
