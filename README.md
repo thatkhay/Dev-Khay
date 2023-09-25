@@ -6,6 +6,6 @@
 
 ![Screenshot 2023-06-27 141308](https://github.com/thatkhay/Dev-Khay/assets/117424081/e259c1c4-3819-44af-b359-9281478801bd)
 
-## link: <br/>
+## link: 
 
 https://devkhayy.netlify.app/
