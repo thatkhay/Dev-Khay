@@ -70,19 +70,19 @@ function Nav() {
         ) : (
           <ul className="nav text"style={{width: '50%'}} >
              <Button variant="text" style={{color: 'black'}}>
-              <Link style={{textDecoration: 'none', color: 'black'}} to='/'>Home</Link>
+              <Link style={{textDecoration: 'none', color: 'black', fontSize: '.7rem'}} to='/'>Home</Link>
              </Button>
               <Button variant="text" style={{color: 'black'}}>
-                <Link style={{textDecoration: 'none', color: 'black'}} to='/aboutme' className="nav-item">About</Link>
+                <Link style={{textDecoration: 'none', color: 'black', fontSize: '.7rem'}} to='/aboutme' className="nav-item">About</Link>
               </Button>
               <Button variant="text" style={{color: 'black'}}>
-                <Link style={{textDecoration: 'none', color: 'black'}} to='/project' className="nav-item">Projects</Link >
+                <Link style={{textDecoration: 'none', color: 'black', fontSize: '.7rem'}} to='/project' className="nav-item">Projects</Link >
               </Button>
               
             
             
             
-            <Button variant="text" style={{color: 'black', height: '3rem', border: '.4px solid gray'}}>contact me</Button>
+            <Button variant="text" style={{color: 'black', height: '2rem', border: '.4px solid gray',fontSize: '.7rem'}}>contact me</Button>
             <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginRight: '-4rem' }}>
 
             <Switch  onChange={handleToggle} checked={checked} />

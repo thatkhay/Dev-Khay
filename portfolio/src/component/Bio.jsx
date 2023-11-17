@@ -10,7 +10,7 @@ function Bio() {
 
   return (
     <div className='text'>
-      <div className={isMobile ? 'bioDiv-mobile' : 'bioDiv'} style={{backgroundColor: 'white'}} >
+      <div className={isMobile ? 'bioDiv-mobile' : 'bioDiv'}  >
         {isMobile && <img className="myImg-mobile" src={Meimg} alt="" />}
         <div className={isMobile ? 'nameBio-mobile' : 'nameBio'} style={{alignItems: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'space-around', height: '12rem'}}>
           <h5 className={isMobile ? 'h5-mobile' : 'h5'}  style={{fontSize: '1.5rem'}}>Hi <WavingHandIcon fontSize='small'/>  </h5>

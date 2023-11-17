@@ -69,7 +69,7 @@ function Projects() {
                 {pics.text}
               </Typography>
               <div className="buttonContainer">
-                <Button variant="contained" color="primary" href={pics.link} target="_blank">
+                <Button variant="contained" color="primary" href={pics.link} target="_blank" style={{backgroundColor: 'purple'}}>
                   View Project
                 </Button>
               </div>
