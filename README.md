@@ -1,6 +1,6 @@
 # Dev-Khay
 ## My portfolio 
-## link: 
+## link:
 
 https://devkhayy.netlify.app/
 
